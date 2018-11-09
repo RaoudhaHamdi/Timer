@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.grid-hour,
+.grid-minute,
+.grid-second {
+  display: flex;
+  flex-direction: column;
+}
+.grid-text {
+  font-size: 14px;
+  color: #999;
+}
+.hour,
+.minute,
+.second {
+  font-weight: 600;
+  font-size: 52px;
+}
